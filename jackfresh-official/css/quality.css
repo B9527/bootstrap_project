@@ -1,0 +1,406 @@
+body {
+	font-family: '黑体';
+	overflow-x: hidden;
+}
+/* 自定义导航条 */
+
+.navbar-itcast {
+	border-color: #e7e7e7;
+	line-height: 80px;
+	margin-bottom: 0;
+	border: 0;
+	top: 0;
+	background-color: #fff;
+	width: 100%;
+	z-index: 1;
+}
+
+.breadcrumb {
+	background: #fff;
+	height: 60px;
+	padding-left: 55px;
+}
+
+.breadcrumb> li+ li:before {
+	color: #75a342;
+	content: "/ ";
+	padding: 0 5px;
+}
+
+.breadcrumb> li .active {
+	color: #75a342;
+}
+
+.breadcrumb> li a {
+	font-size: "16px";
+	color: #444;
+	text-decoration: none;
+}
+
+.navbar-itcast .breadcrumb {
+	padding-top: 0;
+	padding-right: 0;
+}
+
+.navbar-itcast .breadcrumb.spe {
+	padding-right: 0;
+}
+
+.navbar-itcast .navbar-brand {
+	color: #777;
+	height: 80px;
+}
+
+.navbar-itcast .navbar-brand:hover,
+.navbar-itcast .navbar-brand:focus {
+	color: #5e5e5e;
+	background-color: transparent;
+}
+
+.navbar-itcast .navbar-text {
+	color: #777;
+}
+
+.navbar-itcast .navbar-nav .spe {
+	padding-right: 0;
+}
+#concrete{
+	margin-top:60px;
+	margin-bottom:60px;
+}
+#concrete .product .spe{
+	margin-bottom:40px;
+	
+}
+#concrete .product .text1{
+	font-size:20px;
+	color:#666;
+	line-height:40px;
+	margin-top:150px;
+}
+#place .place_box{
+	width:100%;
+	height:570px;
+	background:#dde9d1;
+}
+#place .place_box .one{
+	margin-bottom:60px;
+	margin-top:0px;
+}
+#place .place_box .spe{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+#place .place_box .text1{
+	font-size:20px;
+	color:#666;
+	line-height:40px;
+	margin-top:40px;
+}
+#check{
+	margin-top:30px;
+	margin-bottom:40px;
+}
+#check .spe{
+	margin-bottom:40px;
+	margin-top:50px;
+}
+#check .content p{
+	width:765px;
+	font-size:20px;
+	color:#666;
+	line-height:40px;
+	margin-top:40px;	
+}
+#chain .chain_box{
+	width:100%;
+	height:615px;
+	background:#dde9d1;
+}
+#chain .chain_box .one{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+#chain .chain_box .text1{
+	font-size:20px;
+	color:#666;
+	line-height:40px;
+	margin-top:80px;
+}
+
+/* 客服热线 */
+
+#tele {
+	width: 100%;
+	height: 290px;
+	background: #727272;
+	/*margin-top: 50px;*/
+	padding-top: 50px;
+	position: relative;
+}
+
+#tele .container {
+	position: relative;
+}
+
+#tele .row .line {
+	position: absolute;
+	left: 750px;
+	top: 0;
+}
+#tele .content{
+	text-align:left;
+}
+#tele .content h3 {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom:13px;
+}
+#tele .content h3 span{
+	font-family:"Aparajita Bold";
+	font-weight:bold;
+}
+#tele .content p {
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+}
+
+
+#tele .media .article p {
+	margin-top: 15px;
+	
+}
+
+#tele .media p {
+	font-size: 18px;
+	color: #fff;
+}
+#tele .media .media-body{
+	text-align:center;
+}
+
+/*尾部区域 */
+
+#footer {
+	width: 100%;
+	height: 70px;
+	background: #5b5b5b;
+}
+
+#footer .content {
+	padding-top: 20px;
+}
+
+#footer p {
+	color: #fff;
+	line-height: 15px;
+}
+
+/*PAD屏幕下的专用样式*/
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+	
+	#concrete{
+		margin-top:40px;
+		margin-bottom:15px;
+	}
+	#concrete .product .one{
+		margin-bottom:40px;
+		
+	}
+	
+	#concrete .product .text1{
+		font-size:20px;		
+		line-height:35px;
+		margin-top:45px;
+	}
+	#place .place_box{		
+		height:420px;		
+	}
+	#place .place_box .one{
+		margin-bottom:40px;
+		margin-top:50px;
+	}
+	#place .place_box .text1{
+		font-size:20px;		
+		line-height:33px;
+		margin-top:10px;
+	}
+	#check{
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	#check .one{
+		margin-bottom:50px;
+		margin-top:40px;
+	}
+	#check .content p{
+		width:600px;
+		font-size:20px;		
+		line-height:35px;	
+	}
+	#chain .chain_box{		
+		height:540px;		
+	}
+	#chain .chain_box .one{
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	#chain .chain_box .text1{
+		font-size:20px;		
+		line-height:35px;
+		margin-top:40px;
+	}
+	#tele {
+		height: 220px;
+		padding-top:20px;
+	}
+	#tele .content h3 {
+		font-size: 24px;		
+	}
+	#tele .content p {
+		font-size: 16px;		
+		line-height: 35px;
+	}
+	#tele .media{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#tele .content{
+		text-align:center;
+	}
+	#tele .media .article p {
+		margin-top: 15px;
+		margin-right: 6px;
+	}
+	#tele .media p {
+		font-size: 18px;		
+	}
+}
+
+/*PHONE屏幕下的专用样式*/
+
+@media screen
+and (max-width:767px) {
+	.navbar-itcast .navbar-brand{
+ 		height:60px;
+ 	}
+ 	.navbar-brand img{
+ 		height:30px;
+ 	}
+ 	.navbar-nav li a{
+ 		font-size:14px;
+ 		line-height:15px;
+ 		color:#444;
+ 	}
+ 	.navbar-header button{
+ 		background:#eee; 		 		
+ 	}
+ 	.navbar-header .navbar-toggle{
+ 		margin-top:13px;
+ 	}
+ 	.navbar-header button .icon-bar{
+ 		background:#bbb;
+ 	}
+ 	.together{
+ 		position: absolute;
+ 		top:60px;
+ 	}
+ 	#concrete{
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	#concrete .product .one{
+		margin-bottom:20px;
+		
+	}
+	
+	#concrete .product .text1{
+		font-size:14px;		
+		line-height:30px;
+		margin-top:0px;
+		margin-bottom:10px;
+	}
+	#place .place_box{		
+		height:360px;		
+	}
+	#place .place_box .one{
+		margin-bottom:0px;
+		margin-top:20px;
+	}
+	#place .place_box .text1{
+		font-size:14px;		
+		line-height:30px;
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+	#check{
+		margin-top:30px;
+		margin-bottom:10px;
+	}
+	#check .one{
+		margin-bottom:20px;
+		margin-top:20px;
+	}
+	#check .content p{
+		width:300px;
+		font-size:14px;		
+		line-height:30px;
+		margin-bottom:20px;
+		margin-top:20px;	
+	}
+	#chain .chain_box{		
+		height:100%;		
+	}
+	#chain .chain_box .one{
+		margin-top:20px;
+		margin-bottom:0px;
+	}
+	#chain .chain_box .two{
+		margin-bottom:20px;
+	}
+	#chain .chain_box .text1{
+		font-size:14px;		
+		line-height:30px;
+		margin-top:13px;
+		margin-bottom:20px;
+	}
+	.spe{
+		width:150px;
+		height:42px;
+	}
+	#tele {
+		height: 150px;
+		padding-top:10px;
+	}
+	#tele .content h3 {
+		font-size: 20px;			
+	}
+	#tele .content p {
+		font-size: 14px;		
+		line-height: 14px;
+	}
+	#tele .media{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#tele .content{
+		text-align:center;
+	}
+	#footer {		
+		height: 70px;		
+	}
+	
+	#footer .content {
+		padding-top: 20px;
+	}
+	
+	#footer p {
+		color: #fff;
+		line-height: 10px;
+	}
+	
+}

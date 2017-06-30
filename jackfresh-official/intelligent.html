@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+		<title>吉客优鲜</title>
+		<link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/intelligent.css" rel="stylesheet">
+		<script src="jquery/jquery.min.js"></script>
+        <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- 导航区域 -->
+		<nav class="navbar navbar-itcast" data-spy="affix" data-offset-top="1" >
+            <div class="container">
+            	<div class="navbar-header">
+            		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
+                        <!--sr-only  screen read 屏幕阅读器使用的和效果没关 -->
+                        <!-- icon-bar 指按钮上的3个横杠 -->
+                        <span class="sr-only">切换菜单</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+	                <a class="navbar-brand" href="#">
+		                <img src="images/logo_1.png" alt="" class="img-responsive"/>
+		            </a>
+            	</div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                	<ol class="breadcrumb pull-right hidden-xs" >
+					    <li><a href="jackfresh.html" >首页</a></li>
+					    <li><a href="about_us.html">关于我们</a></li>
+					    <li><a href="quality.html">优质品质</a></li>
+					    <li><a href="intelligent.html" class="active">智能生活</a></li>					    
+					    <li class="spe"><a href="contect.html">联系我们</a></li>
+					</ol>
+					<ul class="nav navbar-nav hidden-lg hidden-md hidden-sm visible-xs">
+                        <li><a href="jackfresh.html" >首页</a></li>
+					    <li><a href="about_us.html">关于我们</a></li>
+					    <li><a href="quality.html">优质品质</a></li>
+					    <li><a href="intelligent.html" class="active">智能生活</a></li>					    
+					    <li class="spe"><a href="contect.html">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="together">
+		        	<!--banner区域 -->
+		        <div class="banner">
+		        	<img src="images/intelligent_0.png" alt="智能生活" class="img-responsive center-block"/>
+		        </div>
+		        <!--详情区域 -->
+		        <div class="detail" id="detail">
+		        	<div class="container">
+		        		<div id="tab">
+						   <div class="tab_menu">
+							    <ul>								   
+								    <li class="active"><a href="#" id="meeting">智会宝</a></li>
+								    <li ><a href="#" id="model">智能屏</a></li>
+								    <li ><a href="#" id="baby">小宝</a></li>
+								    <li ><a href="#" id="mirror">魔镜</a></li>
+							    </ul>
+						   </div>
+						   <div class="tab_box">
+						   		<div class="item" id="meeting_div">
+							    	<div class="table">
+							    		<img src="images/intelligent_banner.png" alt="智会宝" class="img-responsive center-block hidden-xs"/>
+								        <img src="images/intelligent_banner1.png" alt="智会宝" class="img-responsive center-block visible-xs"/>
+								        <button type="button" id="ClickMe">产品参数</button>	
+								    </div>
+								    <div class="" id="content">
+								    	<img src="images/intelligent_24.png" alt="" class="img-responsive center-block hidden-xs"/>
+								    	<img src="images/intelligent_240.png" alt="" class="img-responsive center-block visible-xs"/>
+								    	<p class="center-block">智会宝是基于JAVA(Struts+Spring+Hibernate)+MYSQL+RED5+RESIN开发设计的视频会议系统，采用三星原装进口LED液晶面板，集电脑主机、红外多点触控、高清摄像头、无线同屏系统、声控交互等软硬件功能于一体，是企业商务应用的最佳选择。</p>
+								    	<img src="images/intelligent_28.png" alt="" class="img-responsive center-block one"/>
+								    	<img src="images/intelligent_29.png" alt="" class="img-responsive center-block"/>
+								    </div>
+								    <div class="concrete" id="concrete">
+								    	<div class="back-scene">
+								    		<img src="images/intelligent_25.png" alt="" class="img-responsive center-block hidden-xs"/>
+								    		<img src="images/intelligent_250.png" alt="" class="img-responsive center-block visible-xs"/>
+								    		<img src="images/intelligent_251.png" alt="" class="img-responsive center-block visible-xs"/>
+								    	</div>
+								    	<img src="images/intelligent_30.png" alt="" class="img-responsive center-block one hidden-xs"/>
+								    	<img src="images/intelligent_300.png" alt="" class="img-responsive center-block one visible-xs"/>
+								    	<img src="images/intelligent_301.png" alt="" class="img-responsive center-block two visible-xs"/>
+								    	<div class="back-scene1">
+								    		<img src="images/intelligent_31.png" alt="" class="img-responsive center-block hidden-xs"/>
+								    		<img src="images/intelligent_310.png" alt="" class="img-responsive center-block visible-xs"/>
+								    		<img src="images/intelligent_311.png" alt="" class="img-responsive center-block visible-xs"/>
+								    	</div>	
+								    	<img src="images/intelligent_26.png" alt="" class="img-responsive center-block two three hidden-xs"/>
+								    	<img src="images/intelligent_260.png" alt="" class="img-responsive center-block two three visible-xs"/>
+								    	<div class="row">
+								    		<div class="col-md-6 col-sm-6 col-xs-12 spe">
+									    		<img src="images/intelligent_32.png" alt="" class="img-responsive center-block hidden-xs"/>
+									    		<img src="images/intelligent_320.png" alt="" class="img-responsive center-block visible-xs"/>
+									    	</div>
+									    	<div class="col-md-6 col-sm-6 col-xs-12">
+									    		<img src="images/intelligent_38.png" alt="" class="img-responsive center-block hidden-xs"/>
+									    		<img src="images/intelligent_380.png" alt="" class="img-responsive center-block five visible-xs"/>
+									    	</div>
+								    	</div>
+								    	<div class="back-scene2">
+								    		<img src="images/intelligent_27.png" alt="" class="img-responsive center-block two hidden-xs"/>
+								    		<img src="images/intelligent_270.png" alt="" class="img-responsive center-block two visible-xs"/>
+									    	<div class="row">
+									    		<div class="col-md-6 col-sm-6 col-xs-12 spe2">
+										    		<img src="images/intelligent_35.png" alt="" class="img-responsive center-block hidden-xs"/>
+										    		<img src="images/intelligent_350.png" alt="" class="img-responsive center-block visible-xs"/>
+										    	</div>
+										    	<div class="col-md-6 col-sm-6 col-xs-12 spe">
+										    		<img src="images/intelligent_34.png" alt="" class="img-responsive center-block hidden-xs"/>
+										    		<img src="images/intelligent_340.png" alt="" class="img-responsive center-block visible-xs"/>
+										    	</div>
+									    	</div>
+								    	</div>
+								    	<img src="images/intelligent_36.png" alt="" class="img-responsive center-block one hidden-xs"/>
+										<img src="images/intelligent_360.png" alt="" class="img-responsive center-block one visible-xs"/>
+										<img src="images/intelligent_361.png" alt="" class="img-responsive center-block four visible-xs"/>
+								    	<div class="seven">
+								    		<img src="images/intelligent_37.png" alt="" class="img-responsive center-block hidden-xs"/>
+											<img src="images/intelligent_370.png" alt="" class="img-responsive center-block visible-xs"/>
+											<img src="images/intelligent_371.png" alt="" class="img-responsive center-block visible-xs"/>
+								    	</div>								    								    	
+								    </div>
+							    </div>
+							    <div class="item" id="model_div">
+							    	<div class="model_banner">
+							    		<img src="images/intelligent_22.png" alt="智能屏" class="img-responsive center-block hidden-xs"/>
+							    		<img src="images/intelligent_220.png" alt="智能屏" class="img-responsive center-block visible-xs"/>
+							    	</div>
+							    	<div class="show_go">
+							    		<img src="images/intelligent_19.png" alt="秀go" class="img-responsive center-block hidden-xs"/>
+							    		<img src="images/intelligent_190.png" alt="秀go" class="img-responsive center-block visible-xs"/>
+							    	</div>
+							    	<div class="scene">                                                                                                                    
+							    		<div class="scence_box">
+							    			<div class="row">
+							    			<div class="">
+									    		<img src="images/intelligent_18.png" alt="场景应用" class="img-responsive pull-left hidden-xs"/>
+									    		<img src="images/intelligent_180.png" alt="场景应用" class="img-responsive pull-left visible-xs"/>
+									    	</div>
+									    	<div class="content">									    																    		
+									    		<div class="visible-xs">
+									    			<img src="images/intelligent_181.png" alt="场景应用" class="img-responsive pull-left"/>
+									    		</div>
+									    		<!--<img src="images/intelligent_182.png" alt="场景应用" class="img-responsive pull-left hidden-xs"/>-->
+									    	</div>
+							    		</div>
+							    		</div>
+							    	</div>
+							    	<div class="data">
+							    		<div class="row">
+							    			<div class="">
+									    		<img src="images/intelligent_23.png" alt="云端数据" class="img-responsive pull-right hidden-xs"/>
+									    		<img src="images/intelligent_230.png" alt="云端数据" class="img-responsive pull-right visible-xs spe"/>
+									    	</div>
+							    			<div class="content">									    		
+									    		<div class="visible-xs">
+									    			<img src="images/intelligent_231.png" alt="场景应用" class="img-responsive pull-left"/>
+									    		</div>
+									    	</div>
+									    	
+							    		</div>
+							    	</div>
+							    	<div class="collection">
+							    		<div class="row">
+							    			<div class="">
+									    		<img src="images/intelligent_21.png" alt="视像采集" class="img-responsive pull-left hidden-xs"/>
+									    		<img src="images/intelligent_210.png" alt="视像采集" class="img-responsive pull-left visible-xs"/>
+									    	</div>
+									    	<div class="content">
+									    		<!--<img src="images/intelligent_15.png" alt="视像采集" class="img-responsive pull-right"/>
+									    		<h3 class="text-right">视像显示采集</h3>
+									    		<p class="text-left">高清显示模组、3G/4G/WIFI通信模组、图像采集和智能分析程序、APP开发</p>-->
+									    		<div class="visible-xs">
+									    			<img src="images/intelligent_211.png" alt="场景应用" class="img-responsive pull-left"/>
+									    		</div>
+									    	</div>
+							    		</div>
+							    	</div>
+							    	<div class="parameter">
+							    		<div class="row">
+							    			<div class=" content">
+									    		<div class="hidden-xs">
+									    			<img src="images/intelligent_16.png" alt="产品参数" class="img-responsive pull-left number"/>
+									    			<!--<img src="images/intelligent_46.png" alt="产品参数" class="img-responsive pull-left one"/>-->
+									    		</div>
+									    		<div class="visible-xs">
+									    			<img src="images/intelligent_160.png" alt="产品参数" class="img-responsive pull-left number"/>
+									    			<!--<img src="images/intelligent_460.png" alt="产品参数" class="img-responsive pull-left"/>-->
+									    		</div>
+									    	</div>
+									    	<div class="">
+									    		<!--<img src="images/intelligent_17.png" alt="产品参数" class="img-responsive center-block hidden-xs"/>-->
+									    		<img src="images/intelligent_170.png" alt="产品参数" class="img-responsive center-block visible-xs"/>
+									    	</div>
+							    		</div>
+							    	</div>
+							    </div>
+							    <div class="item" id="baby_div">
+							    	<div class="view">
+								        <img src="images/intelligent_1.png" alt="智能生活" class="img-responsive center-block"/>
+								    </div>
+								    <div class="row content1">
+								    	<div class="col-md-4 col-sm-4 one">
+								    		<img src="images/intelligent_4.png" alt="贴心安防" class="img-responsive center-block"/>
+								    		<h3 class="center-block">贴心安防</h3>
+								    		<p class="center-block">智能监控：入侵检测，人脸识别，联动报警。企业级安防，不受光线约束。独有专利技术，100万像素，150°非球面广角极清无噪点摄像，低照环境可呈现极清彩色画面。</p>
+								    	</div>
+								    	<div class="col-md-4 col-sm-4 one">
+								    		<img src="images/intelligent_5.png" alt="高清投影" class="img-responsive center-block"/>
+								    		<h3 class="center-block">高清投影</h3>
+								    		<p class="center-block">智能监控：入侵检测，人脸识别，联动报警。企业级安防，不受光线约束。独有专利技术，100万像素，150°非球面广角极清无噪点摄像，低照环境可呈现极清彩色画面。</p>
+								    	</div>
+								    	<div class="col-md-4 col-sm-4 one">
+								    		<img src="images/intelligent_6.png" alt="视频摄像" class="img-responsive center-block"/>
+								    		<h3 class="center-block">视频摄像</h3>
+								       		<p class="center-block">100万像素高清彩色摄像机，140度非球面广角。3D摄像手势识别、体感游戏、更随模式给你更生动视觉。手机APP遥控拍照、摄像，远程视频互动，并可海量数据存储云端。</p>
+								    	</div>
+								    </div>
+								    <div class="interact">
+								        <img src="images/intelligent_3.png" alt="人机互动" class="img-responsive center-block"/>								        
+								    </div>
+								    <div class="row content2">
+								    	<div class="col-md-2 col-sm-2 col-xs-2 spe5">
+								    		<img src="images/intelligent_9.png" alt="定位" class="img-responsive pull-right"/>
+								    	</div>
+								    	<div class="col-md-10 col-sm-10 col-xs-10">
+								    		<p>360度声源定位——2组、四元十字阵列麦克风。1秒钟内对所有声源进行相关性滤波。基于广义空间定位方法计算出目标声源的方向和位置。</p>
+								    	</div>
+								    </div>
+								    <div class="row content2">
+								    	<div class="col-md-2 col-sm-2 col-xs-2 spe5">
+								    		<img src="images/intelligent_10.png" alt="定位" class="img-responsive pull-right"/>
+								    	</div>
+								    	<div class="col-md-9 col-sm-10 col-xs-10">
+								    		<p>智能语音交互——基于科大讯飞强大的云技术平台，丰富的语言，语义库。能精准识别语音指令、顺畅的语音交流互动。人性化生活化的语义解析反馈。</p>
+								    	</div>
+								    </div>
+								    <div class="row content2">
+								    	<div class="col-md-2 col-sm-2 col-xs-2 spe5">
+								    		<img src="images/intelligent_11.png" alt="定位" class="img-responsive pull-right"/>
+								    	</div>
+								    	<div class="col-md-9 col-sm-10 col-xs-10">
+								    		<p>专业级HIFI音箱系统——2个高音喇叭、1个低音喇叭。专业音频团队调试，还原真实的音乐现场。多彩氛围灯，小宝的的全身多个不为设置多彩灯光照明。</p>
+								    	</div>
+								    </div>
+								    <div class="body row">
+								        <div class="col-md-6 col-sm-6 col-xs-12">
+								        	<img src="images/intelligent_12.png" alt="小身体大智慧" class="img-responsive center-block one"/>
+								        </div>
+								        <div class="col-md-6 col-sm-6 col-xs-12">
+								        	<img src="images/intelligent_121.png" alt="小身体大智慧" class="img-responsive center-block hidden-xs"/>
+								        	<img src="images/intelligent_1210.png" alt="小身体大智慧" class="img-responsive center-block visible-xs"/>
+								        </div>
+								    </div>
+								    <div class="control">
+								        <img src="images/intelligent_7.png" alt="家居管理" class="img-responsive center-block hidden-xs"/>
+								        <img src="images/intelligent_70.jpg" alt="家居管理" class="img-responsive center-block visible-xs"/>
+								    </div>
+								    <div class="itself">
+								        <img src="images/intelligent_8.png" alt="自主充电" class="img-responsive center-block hidden-xs"/>
+								        <img src="images/intelligent_80.jpg" alt="自主充电" class="img-responsive center-block visible-xs"/>
+								    </div>
+							    </div>	
+							    
+							    <div class="item" id="mirror_div">
+							    	<div class="intelli">
+							    		<img src="images/intelligent_39.png" alt="" class="img-responsive center-block hidden-xs"/>
+							    		<img src="images/intelligent_390.jpg" alt="" class="img-responsive center-block visible-xs"/>
+							    	</div>
+							    	<div class="intelli-mirror">
+							    		<img src="images/intelligent_40.png" alt="" class="img-responsive center-block hidden-xs"/>
+							    		<img src="images/intelligent_400.jpg" alt="" class="img-responsive center-block visible-xs"/>
+							    	</div>
+							    	<div class="manager">
+							    		<img src="images/intelligent_41.png" alt="" class="img-responsive center-block hidden-xs"/>
+							    		<img src="images/intelligent_410.jpg" alt="" class="img-responsive center-block visible-xs"/>
+							    	</div>
+							    	<div class="fresh-air">
+							    		<img src="images/intelligent_42.png" alt="" class="img-responsive center-block hidden-xs"/>
+							    		<img src="images/intelligent_420.jpg" alt="" class="img-responsive center-block visible-xs"/>
+							    	</div>
+							    	<div class="">
+							    		<img src="images/intelligent_43.png" alt="" class="img-responsive center-block hidden-xs"/>
+							    		<img src="images/intelligent_430.jpg" alt="" class="img-responsive center-block visible-xs"/>
+							    	</div>
+							    	<div class="sony-laser">
+							    		<img src="images/intelligent_44.png" alt="" class="img-responsive center-block hidden-xs"/>
+							    		<img src="images/intelligent_440.jpg" alt="" class="img-responsive center-block visible-xs"/>
+							    	</div>
+							    	<div class="choose">
+							    		<img src="images/intelligent_45.png" alt="" class="img-responsive center-block hidden-xs"/>
+							    		<img src="images/intelligent_450.jpg" alt="" class="img-responsive center-block visible-xs"/>
+							    	</div>
+							    	<div class="format">
+							    		<img src="images/intelligent_47.jpg" alt="" class="img-responsive center-block hidden-xs"/>
+							    		<img src="images/intelligent_470.jpg" alt="" class="img-responsive center-block visible-xs"/>
+							    	</div>
+							    </div>
+							    
+						   </div>
+				 		</div>
+				 		<div id="goodcover"></div>
+					<div id="code">								  
+					    <div class="goodtxt">				    				  
+							<h3>产品参数</h3>
+									
+							<table style="margin: 0px auto; padding: 0px; table-layout: auto; text-indent: 2em; color: rgb(104, 102, 102); font-family: 微软雅黑; line-height: 21.6px; " width="100%" cellspacing="1" cellpadding="1" border="1" align="center">
+								<tbody>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											显示尺寸</td>
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											82"</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											外形尺寸</td>
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											1910(W)×1120(H)×76(D)mm</td>
+									</tr>
+									<tr class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											颜色</td>
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											金色</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											显示比例</td>
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											16：9</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											显示亮度</td>
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											&gt;450cd/平方米</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											对比度</td>
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											5000：1</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											分辨率</td>
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											1920x1080</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											响应时间</td>
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											&lt;6.5ms</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											触控</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											支持红外十点触控</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											视角</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											178°</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											音频</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											专业级大功率音响</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											视频制式</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											PAL、NTSC、PAL SECAM (可选)</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											音频制式</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											BG、 I、 DK、 M /N</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											YPbPr格式</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											480I、480P、576I、576P、720P、1080I、1080P</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											HDMI格式</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											480I、480P、576I、576P、720P、1080I、1080P</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											解码方式</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											动态全3D梳状滤波解码</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											其他</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											支持丽音、PIP/POP画中画 画外画功能</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											OSD语言</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											中文、ENGLISH、法语、德语等(可选)</td>
+									</tr>
+									<tr class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											所带接口</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											USB*4</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td colspan="1" rowspan="7" style="margin: 0px; padding: 0px; width: auto;">
+											PC配置</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											CPU/处理器：inteli3-5010U(2.1GHZ主频）</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											RAM/内存：DDR3-1333/1600 4G</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											storage/扩展存储：固态硬盘SSD 128G</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											Internet/以太网络：内置千兆以太网络芯片/支持无线网卡扩展（IEEE802.11b/n/g）支持蓝牙</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											AUDIO/音频：内置HD AUDIO音效芯片，立体声高保真扬声输出</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											IO/外置扩展：4*USB【支持键盘/鼠标、打印、无线wifi、打印设备等扩展】</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											OS/操作系统：Windows7、Windows8</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px;" class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											I/O接口</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											2*Yobor、2*HDMI、1*S-Video、1*VGA、1*AV、1*AV out、1*USB、1*TV Tuner</td>
+									</tr>
+									<tr style="margin: 0px; padding: 0px; background: rgb(244, 244, 244) none repeat scroll 0% 0%;">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											<p style="margin: 0px; padding: 0px;">
+												工作电压&nbsp;</p>
+										</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											AC 90V~240V宽交流电输入</td>
+									</tr>
+									<tr class="sezhi">
+										<td style="margin: 0px; padding: 0px; width: auto;">
+											支架特点</td>
+										<td colspan="2" style="margin: 0px; padding: 0px; width: auto;">
+											可移动、可升降（行程350mm）、可旋转（90度）、可上仰（12度）</td>
+									</tr>
+									
+															
+								</tbody>
+							</table>
+						</div>
+					</div>
+		        	</div>
+		        	
+		        </div>
+		        <!-- 热线区域 -->
+			<section id="tele-box">
+				<div id="tele">
+					<div class="container">
+						<div class="media row">
+							<div class="col-md-8 content text-left">
+								<h3>客服热线：<span>400-027-2766</span></h3>
+								<p>企业邮箱：jackfresh@163.com</p>
+								<p>地址：武汉市洪山区关山大道保利国际中心28楼</p>
+								<p>邮编：430000</p>
+							</div>
+							<div class="line hidden-sm hidden-xs">
+								<img src="images/line.png"/>
+							</div>
+							<div class="col-md-4 hidden-sm hidden-xs ">
+								<div class="article media-body pull-right">
+									<img src="images/erweima_0.png" class="img-responsive center-block media-object"/>
+									<p>吉客优鲜公众号</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 尾部区域 -->
+			<footer id="footer">
+				<div class="container">
+					<div class="content text-center">
+						<p>Copyright 2016-2017 jikeyouxian.All Rights Reserved</p>
+						<p>武汉夏荷冬雪食品有限公司 鄂ICP 备 16003217号-1</p>
+					</div>
+				</div>
+			</footer>
+        </div>
+	</body>
+	<script src="js/intelligent.js"></script>
+</html>

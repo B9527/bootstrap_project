@@ -1,0 +1,45 @@
+<html>
+  <head>
+	<style type="text/css">
+		body, html {width: 100%;height: 100%;margin:0;font-family:"΢���ź�";}
+		#allmap{width:100%;height:100%;}
+		p{margin-left:5px; font-size:14px;}
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+ <script type="text/javascript">
+			function load(){
+				var map = new BMap.Map("allmap");
+				var point = new BMap.Point(114.417365,30.496543);
+				var marker = new BMap.Marker(point);  // ������ע
+				var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});
+				var top_left_navigation = new BMap.NavigationControl(); 
+				map.addOverlay(marker);              // ����ע��ӵ���ͼ��
+				map.centerAndZoom(point, 9);
+				map.addControl(new BMap.MapTypeControl());   //��ӵ�ͼ���Ϳؼ�
+				map.addControl(top_left_control);        
+				map.addControl(top_left_navigation);  
+				map.enableScrollWheelZoom(true);     //��������������
+				var opts = {
+				  width : 270,     // ��Ϣ���ڿ��
+				  height: 150,     // ��Ϣ���ڸ߶�
+				  title : "公司简介" , // ��Ϣ���ڱ���
+				  enableMessage:false,//����������Ϣ�����Ͷ�Ϣ
+				}
+				var str="公司名称：武汉夏荷冬雪食品有限公司<br/>"+
+						"客服热线:400-027-2766<br/>"+
+						"地址：武汉市洪山区关山大道保利国际中心28楼<br/>"+
+			            "企业邮箱：jackfresh@163.com<br/>"
+			            ;
+
+				var infoWindow = new BMap.InfoWindow(str, opts);  // ������Ϣ���ڶ��� 
+				marker.addEventListener("click", function(){          
+					map.openInfoWindow(infoWindow,point); //������Ϣ����
+				});
+				}
+ </script>
+  </head>
+  
+  <body onload="load();">
+    <div id="allmap"></div>
+  </body>
+</html>

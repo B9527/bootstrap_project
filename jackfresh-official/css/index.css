@@ -1,0 +1,1008 @@
+body {
+	font-family: '黑体';
+	overflow-x: hidden;
+}
+
+
+/* 自定义导航条 */
+
+@media screen and (min-width:1200px) {
+	
+	.navbar-itcast .navbar-brand img {
+		
+		margin-top: 5px;
+	}
+}
+
+
+/* 自定义导航条 */
+
+.navbar-itcast {
+	border-color: #e7e7e7;
+	line-height: 80px;
+	margin-bottom: 0;
+	border: 0;
+	top: 0;
+	background-color: #fff;
+	width: 100%;
+	z-index: 1;
+}
+
+.breadcrumb {
+	background: #fff;
+	height: 60px;
+	padding-left: 55px;
+}
+
+.breadcrumb> li+ li:before {
+	color: #75a342;
+	content: "/ ";
+	padding: 0 5px;
+}
+
+.breadcrumb> li .active {
+	color: #75a342;
+}
+
+.breadcrumb> li a {
+	font-size: "16px";
+	color: #444;
+	text-decoration: none;
+}
+
+.navbar-itcast .breadcrumb {
+	padding-top: 0;
+	padding-right: 0;
+}
+
+.navbar-itcast .breadcrumb.spe {
+	padding-right: 0;
+}
+
+.navbar-itcast .navbar-brand {
+	color: #777;
+	height: 80px;
+}
+
+.navbar-itcast .navbar-brand:hover,
+.navbar-itcast .navbar-brand:focus {
+	color: #5e5e5e;
+	background-color: transparent;
+}
+
+.navbar-itcast .navbar-text {
+	color: #777;
+}
+
+.navbar-itcast .navbar-nav .spe {
+	padding-right: 0;
+}
+
+
+/* 特色区域 */
+
+#feature {
+	padding-top: 60px;
+}
+
+#feature h3 {
+	margin-bottom: 40px;
+	line-height: 0px;
+	color: #444;
+	text-align:center;
+	font-size:20px;
+}
+/*#feature .row{
+	width:100%;
+}*/
+#feature .fat{
+	margin-top:40px;
+}
+#feature img {
+	
+	opacity: 0.3;
+}
+
+
+/* 介绍区域 */
+
+#introduce-box {
+	height: 870px;
+}
+
+#introduce {
+	width: 100%;
+	height: 510px;
+	background: #c9dab6;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+#introduce .media-heading {
+	width: 300px;
+	border-bottom: 1px solid #999;
+	padding-top: 10px;
+	margin-bottom: 50px;
+}
+
+#introduce .media-heading h3 {
+	font-size: 48px;
+	color: #666;
+}
+
+#introduce .media img {
+	opacity: 0.5;
+}
+#introduce .total{
+	position:relative;
+}
+#introduce .media {
+	margin-bottom: 20px;
+	
+}
+
+#introduce .media-body {
+	width: 650px;
+	line-height: 40px;
+	font-size: 20px;
+	color: #666;
+	margin-bottom: 50px;
+	/*opacity: 0.5;*/
+}
+
+#introduce .icon img {
+	opacity: 0.5;
+	
+}
+
+
+/* 产品展示 */
+
+#produce-box {
+	height: 1250px;
+	margin-bottom: 0px;
+}
+
+#produce {
+	width: 100%;
+	height: 130px;
+	background: #c9dab6;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+#produce .media-heading {
+	width: 300px;
+	border-bottom: 1px solid #879579;
+	padding-top: 10px;
+	margin-bottom: 100px;
+}
+
+#produce .media-heading h3 {
+	font-size: 48px;
+	color: #666;
+}
+
+
+
+#produce .content {
+	text-align: right;
+}
+
+#produce .content h4 {
+	font-size: 42px;
+	color: #75a342;
+}
+
+#produce .content span {
+	font-size: 28px;
+	color: #75a342;
+	font-family: "Book Antiqua Regular";
+}
+
+#produce .content p {
+	font-size: 20px;
+	color: #666;
+	text-align: left;
+	line-height: 40px;
+	margin-top: 20px;
+}
+
+#produce .one {
+	height: 550px;
+	margin-bottom: -20px;
+}
+
+#produce .one img {
+	opacity: 0.3;
+}
+
+#produce .two {
+	height: 550px;
+}
+
+#produce .two img {
+	opacity: 0.5;
+}
+
+#produce .two .content {
+	text-align: left;
+}
+
+
+/* 智能硬件 */
+
+#intelligent-box {
+	height: 850px;
+	margin-bottom: 50px;
+}
+
+#intelligent {
+	width: 100%;
+	height: 130px;
+	background: #c9dab6;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#intelligent .media .spe {
+	padding-left: 0;
+	
+}
+
+#intelligent .media {
+	opacity: 0.5;
+}
+
+#intelligent .media-heading {
+	width: 300px;
+	border-bottom: 1px solid #879579;
+	padding-top: 10px;
+	margin-bottom: 100px;
+}
+
+#intelligent .media-heading h3 {
+	font-size: 48px;
+	color: #666;
+}
+
+.box {
+	position: relative;
+	width: 100%;
+}
+
+.box .opabox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 100%;
+	opacity: 0;
+}
+
+.box .opa {
+	height: 100%;
+	background: #000;
+	opacity: 0.3;
+	filter: alpha(opacity: 40);
+}
+
+.box .con {
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #fff;
+	line-height: 22px;
+	padding-top: 10px;
+	width: 150px;
+}
+
+.box .con p {
+	width: 135px;
+	padding-left: 20px;
+	margin-bottom: 70px;
+	text-align:left;
+}
+
+.box:hover .opabox {
+	opacity: 1;
+	transition: 1s ease-in-out;
+	-webkit-transition: 1s ease-in-out;
+}
+
+
+#intelligent .top img,
+#intelligent .bottom img {
+	max-width: 100%;
+	margin-left:0;
+}
+#intelligent .top ,
+#intelligent .bottom {
+	max-width:100%;
+}
+
+#intelligent .top  {
+	margin-bottom: 22px;
+}
+
+#intelligent button {
+	width: 80px;
+	height: 25px;
+	border-radius: 30px;
+	background: #c9dbb6;
+	color: #fff;
+	border: none;
+	-webkit-appearance: none;
+}
+#intelligent .right p{
+	margin-bottom:50px;
+}
+
+/* 客服热线 */
+
+#tele {
+	width: 100%;
+	height: 290px;
+	background: #727272;
+	/*margin-top: 50px;*/
+	padding-top: 50px;
+	position: relative;
+}
+
+#tele .container {
+	position: relative;
+}
+
+#tele .row .line {
+	position: absolute;
+	left: 750px;
+	top: 0;
+}
+#tele .content{
+	text-align:left;
+}
+#tele .content h3 {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom:13px;
+}
+#tele .content h3 span{
+	font-family:"Aparajita Bold";
+	font-weight:bold;
+}
+#tele .content p {
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+}
+
+
+#tele .media .article p {
+	margin-top: 15px;
+	
+}
+
+#tele .media p {
+	font-size: 18px;
+	color: #fff;
+}
+#tele .media .media-body{
+	text-align:center;
+}
+
+/*尾部区域 */
+
+#footer {
+	width: 100%;
+	height: 70px;
+	background: #5b5b5b;
+}
+
+#footer .content {
+	padding-top: 20px;
+}
+
+#footer p {
+	color: #fff;
+	line-height: 15px;
+}
+
+
+/*中等PC屏幕下的专用样式*/
+
+@media screen and (min-width:992px) and (max-width: 1199px) {
+	#feature .media img {
+		opacity: 0.3;
+	}
+	#feature h3 {
+		margin-bottom: 60px;
+		line-height: 0px;
+		color: #444;
+		font-size:22px;
+	}
+	#introduce-box {
+		height: 850px;
+	}
+	#introduce {
+		width: 100%;
+		height: 400px;
+	}
+	#introduce .media img {
+		
+		opacity: 0.5;
+	}
+	#introduce .media-body {
+		
+		font-size: 18px;
+		color: #858585;
+		margin-bottom: 70px;
+		
+	}
+	#produce-box {
+		height: 1250px;
+		margin-bottom: 80px;
+	}
+	
+	#produce .content h4 {
+		font-size: 30px;
+		color: #75a342;
+	}
+	#produce .content span {
+		font-size: 24px;
+		color: #75a342;
+		font-family: "Book Antiqua Regular";
+	}
+	#produce .content p {
+		font-size: 18px;
+		color: #666;
+		text-align: left;
+		line-height: 50px;
+		margin-top: 20px;
+	}
+	#produce .one {
+		height: 550px;
+		margin-bottom: 30px;
+	}
+	#intelligent-box {
+		height: 850px;
+		margin-bottom: 60px;
+	}
+		
+	.box {
+		position: relative;
+		width: 420px;
+	}
+	.box .opabox {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 170px;
+		height: 100%;
+		opacity: 0;
+	}
+	.box .opa {
+		height: 100%;
+		background: #000;
+		opacity: 0.4;
+		filter: alpha(opacity: 40);
+	}
+	.box .con {
+		position: absolute;
+		left: 0;
+		top: 0;
+		color: #fff;
+		line-height: 22px;
+		padding-top: 20px;
+		width: 145px;
+	}
+	.box .con p {
+		width: 145px;
+		padding-left: 20px;
+		margin-bottom: 50px;
+	}
+	.box-1 {
+		position: relative;
+		width: 485px;
+	}
+	.box-1 .opabox {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 170px;
+		opacity: 0;
+	}
+	.box-1 .opa {
+		height: 170px;
+		background: #000;
+		opacity: 0.4;
+		filter: alpha(opacity: 40);
+	}
+	.box-1 .con {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		color: #fff;
+		line-height: 18px;
+		width: 100%;
+		height: 170px;
+		padding-top: 10px;
+	}
+	.box-1 .con p {
+		margin-bottom: 30px;
+		width: 400px;
+		padding-left: 60px;
+	}
+	#intelligent .bottom button {
+		position:absolute;
+		top:190px;
+		right:20px;
+	}
+	#intelligent .right button {
+		position: absolute;
+		bottom: 25px;
+		right: 20px;
+	}
+	#tele {
+		height: 280px;
+	}
+	#tele .media img {
+		width: 150px;
+		height: 150px;
+	}
+	#tele .row .line {
+		position: absolute;
+		left: 650px;
+		top: 0;
+	}
+	#tele .row .line img {
+		width:100%;
+	}
+	#tele .content h3 {
+		font-size: 24px;
+		color: #fff;
+	}
+	
+}
+
+
+/*PAD屏幕下的专用样式*/
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+	#feature{
+		padding-top:40px;
+	}
+	#feature .fat{
+		margin-top:40px;
+	}
+	#feature h3 {
+		margin-bottom: 35px;
+		line-height: 0px;
+		color: #444;
+		font-size:16px;
+	}
+	#introduce-box {
+		height: 690px;
+	}
+	#introduce .media img {
+		width: 530px;
+		height: 310px;
+		opacity: 0.5;
+	}
+	#introduce {
+		width: 100%;
+		height: 360px;
+		margin-top:40px;
+	}
+	#introduce .media-body {
+		width: 450px;
+		line-height: 35px;
+		font-size: 16px;
+		color: #858585;
+		margin-bottom: 50px;
+		opacity: 0.5;
+	}
+	#introduce .media{
+		margin-bottom:20px;
+	}
+	#introduce .media-heading {
+		width: 200px;
+		border-bottom: 1px solid #999;
+		padding-top: 10px;
+		margin-bottom: 50px;
+	}
+	#introduce .media-heading h3{
+		font-size:30px;
+	}
+	#produce{
+		margin-top:30px;
+		height:100px;		
+	}
+	#produce-box {
+		height: 990px;
+		margin-bottom: 50px;
+	}
+	#produce .media-heading {
+		width: 200px;
+		border-bottom: 1px solid #999;
+		padding-top: 10px;
+		margin-bottom: 50px;
+	}
+	#produce .media-heading h3{
+		font-size:30px;
+	}
+	#produce .content h4 {
+		font-size: 30px;
+		color: #75a342;
+	}
+	#produce .content span {
+		font-size: 20px;
+		color: #75a342;
+		font-family: "Book Antiqua Regular";
+	}
+	#produce .content p {
+		font-size: 16px;
+		color: #666;
+		text-align: left;
+		line-height: 50px;
+		margin-top: 20px;
+	}
+	#produce .one {
+		height:410px;
+		margin-bottom: 40px;
+		margin-top:35px;
+	}
+	#produce .two{
+		height:430px;
+	}
+	#intelligent{
+		height:100px;
+	}
+	#intelligent-box {
+		height: 580px;
+		margin-bottom: 30px;
+	}
+	#intelligent .media-heading {
+		width: 200px;
+		border-bottom: 1px solid #999;
+		padding-top: 10px;
+		margin-bottom: 50px;
+	}
+	#intelligent .media-heading h3{
+		font-size:30px;
+	}
+	#intelligent .media{
+		padding-top:40px;
+	}
+	#intelligent .media h3 {
+		font-size: 20px;
+		color: #fff;
+		margin-top:0;
+	}
+	.box .con p {
+		width: 120px;
+		font-size:12px;		
+		margin-bottom: 30px;
+	}
+	#intelligent .right p{
+		width: 135px;
+		font-size:12px;		
+		margin-bottom: 15px;
+	}
+	.box {
+		position: relative;
+		width: 320px;
+	}
+	.box .opabox {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 145px;
+		height: 100%;
+		opacity: 0;
+	}
+	.box .opa {
+		height: 100%;
+		background: #000;
+		opacity: 0.4;
+		filter: alpha(opacity: 40);
+	}
+	.box .con {
+		position: absolute;
+		left: 0;
+		top: 0;
+		color: #fff;
+		line-height: 22px;
+		padding-top: 5px;
+		width: 145px;
+	}
+	.box .con p {
+		width: 140px;
+		padding-left: 20px;
+		margin-bottom: 20px;
+	}
+	
+	#intelligent .bottom button{
+		position:absolute;
+		bottom:-8px;
+		right:30px;
+	}
+	#tele {
+		height: 220px;
+		padding-top:20px;
+	}
+	#tele .content h3 {
+		font-size: 24px;		
+	}
+	#tele .content p {
+		font-size: 16px;		
+		line-height: 35px;
+	}
+	#tele .media{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#tele .content{
+		text-align:center;
+	}
+	#tele .media .article p {
+		margin-top: 15px;
+		margin-right: 6px;
+	}
+	#tele .media p {
+		font-size: 18px;		
+	}
+}
+
+
+/*PHONE屏幕下的专用样式*/
+
+@media screen
+ and (max-width:767px) {
+ 	
+ 	
+ 	.navbar-itcast .navbar-brand{
+ 		height:60px;
+ 	}
+ 	.navbar-brand img{
+ 		height:30px;
+ 	}
+ 	.navbar-nav li a{
+ 		font-size:14px;
+ 		line-height:15px;
+ 		color:#444;
+ 	}
+ 	.navbar-header .navbar-toggle{
+ 		margin-top:13px;
+ 	}
+ 	.navbar-header button{
+ 		background:#eee;
+ 	}
+ 	.navbar-header button .icon-bar{
+ 		background:#bbb;
+ 	}
+ 	.carousel-indicators{
+ 		position:absolute;
+ 		bottom:-6px;
+ 		left:50%;
+ 	}
+ 	.carousel-indicators li{
+ 		width:8px;
+ 		height:8px;
+ 	}
+ 	.carousel-indicators .active{
+ 		width:10px;
+ 		height:10px;
+ 	}
+ 	.together{
+ 		position:absolute;
+ 		top:60px;
+ 	}
+ 	#feature {		
+		
+		padding-top:20px;		
+	}
+ 	#feature h3 {
+		margin-bottom:30px;
+		line-height:0px;
+		color: #444;
+		font-size:13px;
+		font-weight:0;
+		text-align:center;
+	}
+	#feature .fat{
+		margin-top:20px;
+	}
+	#feature .fat {
+		padding:0px;
+	}
+	
+	
+	#introduce-box {
+		height: 580px;
+		width:100%;
+	}
+	#introduce .media img {
+		opacity: 0.5;
+	}
+	#introduce {
+		width: 100%;
+		height: 280px;
+		margin-top: 20px;
+	}
+	#introduce .media-heading{
+		margin-bottom: 40px;
+	}
+	
+	#introduce .media-body {
+		width: 280px;
+		line-height: 30px;
+		font-size: 14px;
+		color: #666;
+		margin-bottom: 40px;
+		opacity: 0.5;
+	}
+	#introduce .media {
+		margin-bottom: -20px;
+		
+	}
+	#produce{
+		margin-top: -5px;
+	}
+	#produce-box {
+		height: 1200px;
+		margin-bottom: 0px;
+		width:100%;
+	}
+	#produce .content h4 {
+		font-size: 22px;
+		color: #75a342;
+	}
+	#produce .content span {
+		font-size: 18px;
+		color: #75a342;
+		font-family: "Book Antiqua Regular";
+	}
+	#produce .content p {
+		font-size: 14px;
+		color: #666;
+		text-align: left;
+		line-height: 30px;
+		margin-top: 10px;
+	}
+	#produce .one {
+		height: 550px;
+		margin-bottom: -40px;
+	}
+	#produce .one .media-body{
+		margin-bottom:10px;
+	}
+	#produce .two .media-body{
+		margin-top:10px;
+	}
+	#produce .media-heading{
+		margin-bottom: 70px;
+	}
+	#intelligent{
+		margin-top:0px;
+	}
+	#intelligent-box {
+		height: 980px;
+		margin-bottom: 10px;
+		margin-top:20px;
+		width:100%;
+	}
+	#intelligent .media-heading {
+		padding-top: 10px;
+		margin-bottom: 70px;
+	}
+	#intelligent .top,#intelligent .bottom,#intelligent .right{
+		display:block;
+		margin-right:auto;
+		margin-left:auto;
+	}
+	#intelligent .right img {
+		width:100%;
+		height: 100%;
+		margin-top:22px;
+	}
+	#intelligent .media .spe {
+		padding-left: 15px;
+		
+	}
+	.box {
+		position: relative;
+		width: 320px;
+	}
+	.box .opabox {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 130px;
+		height: 100%;
+		opacity: 0;
+	}
+	.box .opa {
+		height: 100%;
+		background: #000;
+		opacity: 0.3;
+		filter: alpha(opacity: 40);
+	}
+	.box .con {
+		position: absolute;
+		left: 0;
+		top: 0;
+		color: #fff;
+		line-height: 22px;
+		padding-top: 5px;
+		width: 130px;
+	}
+	#intelligent .media h3 {
+		font-size: 20px;
+		color: #fff;
+		margin-top:0;
+	}
+	.box .con p {
+		width: 120px;
+		font-size:12px;		
+		margin-bottom: 20px;
+	}
+	#intelligent .media .spe{
+		position: relative;
+		width:100%;
+	}
+
+	#intelligent button{
+		font-size:12px;
+	}
+	#intelligent .right p{
+		margin-bottom:0px;
+		margin-top:-10px;
+	}
+	#tele {
+		height: 150px;
+		padding-top:10px;
+	}
+	#tele .content h3 {
+		font-size: 20px;			
+	}
+	#tele .content p {
+		font-size: 14px;		
+		line-height: 14px;
+	}
+	#tele .media{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#tele .content{
+		text-align:center;
+	}
+	#footer {		
+		height: 70px;		
+	}
+	
+	#footer .content {
+		padding-top: 20px;
+	}
+	
+	#footer p {
+		color: #fff;
+		line-height: 10px;
+	}
+	#introduce .media-heading h3,#produce .media-heading h3,#intelligent .media-heading h3{
+		font-size:28px;
+	}
+	#introduce{
+		height:230px;
+	}
+	#produce,#intelligent{
+		height:80px;
+	}
+	#introduce .media-heading,#produce .media-heading,#intelligent .media-heading{
+		width:230px;
+		padding-top:0;
+	}
+}
+

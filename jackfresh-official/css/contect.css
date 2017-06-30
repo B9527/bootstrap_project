@@ -1,0 +1,313 @@
+body {
+	font-family: '黑体';
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+	color:#444;
+}
+i.active{
+	color:#75a342;
+}
+/* 自定义导航条 */
+
+.navbar-itcast {
+	border-color: #e7e7e7;
+	line-height: 80px;
+	margin-bottom: 0;
+	border: 0;
+	top: 0;
+	background-color: #fff;
+	width: 100%;
+	z-index: 1;
+}
+
+.breadcrumb {
+	background: #fff;
+	height: 60px;
+	padding-left: 55px;
+}
+
+.breadcrumb> li+ li:before {
+	color: #75a342;
+	content: "/ ";
+	padding: 0 5px;
+}
+
+.breadcrumb> li .active {
+	color: #75a342;
+}
+
+.breadcrumb> li a {
+	font-size: "16px";
+	color: #444;
+	text-decoration: none;
+}
+
+.navbar-itcast .breadcrumb {
+	padding-top: 0;
+	padding-right: 0;
+}
+
+.navbar-itcast .breadcrumb.spe {
+	padding-right: 0;
+}
+
+.navbar-itcast .navbar-brand {
+	color: #777;
+	height: 80px;
+}
+
+.navbar-itcast .navbar-brand:hover,
+.navbar-itcast .navbar-brand:focus {
+	color: #5e5e5e;
+	background-color: transparent;
+}
+
+.navbar-itcast .navbar-text {
+	color: #777;
+}
+
+.navbar-itcast .navbar-nav .spe {
+	padding-right: 0;
+}
+/*联系我们 */
+#contect{
+	margin-bottom:60px;
+}
+#contect .top{
+	padding-top:20px;
+}
+#contect .bottom{
+	margin-top:60px;
+}
+#contect .bottom .one{
+	margin-top:55px;
+}
+#contect .bottom h3{
+	font-size:30px;
+	color:#666;
+	margin-bottom:25px;
+}
+#contect .bottom p{
+	font-size:20px;
+	color:#666;
+	line-height:40px;
+}
+/*地理位置 */
+#map {
+	margin-bottom:60px;
+}
+#map iframe{
+	width:100%;
+	height:500px;
+}
+/* 客服热线 */
+
+#tele {
+	width: 100%;
+	height: 290px;
+	background: #727272;
+	/*margin-top: 50px;*/
+	padding-top: 50px;
+	position: relative;
+}
+
+#tele .container {
+	position: relative;
+}
+
+#tele .row .line {
+	position: absolute;
+	left: 750px;
+	top: 0;
+}
+#tele .content{
+	text-align:left;
+}
+#tele .content h3 {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom:13px;
+}
+#tele .content h3 span{
+	font-family:"Aparajita Bold";
+	font-weight:bold;
+}
+#tele .content p {
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+}
+
+
+#tele .media .article p {
+	margin-top: 15px;
+	
+}
+
+#tele .media p {
+	font-size: 18px;
+	color: #fff;
+}
+#tele .media .media-body{
+	text-align:center;
+}
+
+/*尾部区域 */
+
+#footer {
+	width: 100%;
+	height: 70px;
+	background: #5b5b5b;
+}
+
+#footer .content {
+	padding-top: 20px;
+}
+
+#footer p {
+	color: #fff;
+	line-height: 15px;
+}
+	/*PAD屏幕下的专用样式*/
+
+	@media screen and (min-width: 768px) and (max-width:991px) {
+		
+		#contect{
+			margin-bottom:50px;
+		}
+		#contect .bottom{
+			margin-top:50px;
+		}
+		#contect .bottom .one{
+			margin-top:0px;
+		}
+		#contect .bottom h3{
+			font-size:24px;
+			margin-bottom:30px;
+		}
+		#contect .bottom p{
+			font-size:16px;
+			line-height:35px;
+		}
+		#map {
+			margin-bottom:50px;
+		}
+		#map iframe{
+			height:400px;
+		}
+		#tele {
+		height: 220px;
+		padding-top:20px;
+	}
+	#tele .content h3 {
+		font-size: 24px;		
+	}
+	#tele .content p {
+		font-size: 16px;		
+		line-height: 35px;
+	}
+	#tele .media{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#tele .content{
+		text-align:center;
+	}
+	#tele .media .article p {
+		margin-top: 15px;
+		margin-right: 6px;
+	}
+	#tele .media p {
+		font-size: 18px;		
+	}
+	 }
+/*PHONE屏幕下的专用样式*/
+
+@media screen
+ and (max-width:767px) {
+ 	.navbar-itcast .navbar-brand{
+ 		height:60px;
+ 	}
+ 	.navbar-brand img{
+ 		height:30px;
+ 	}
+ 	.navbar-nav li a{
+ 		font-size:14px;
+ 		line-height:15px;
+ 		color:#444;
+ 	}
+ 	.navbar-header button{
+ 		background:#eee;
+ 	}
+ 	.navbar-header .navbar-toggle{
+ 		margin-top:13px;
+ 	}
+ 	.navbar-header button .icon-bar{
+ 		background:#bbb;
+ 	}
+ 	.together{
+ 		position:absolute;
+ 		top:60px;
+ 	}
+ 	#contect{
+		margin-bottom:30px;
+	}
+	#contect .bottom{
+		margin-top:10px;
+	}
+ 	#contect .bottom h3{
+		font-size:20px;
+		margin-bottom:20px;
+	}
+	#contect .bottom p{
+		font-size:14px;
+		line-height:20px;
+	}
+	#contect .bottom .one{
+		margin-top:10px;
+	}
+	#contect .bottom .spe{
+		margin-bottom:22px;
+	}
+	#map {
+		margin-bottom:40px;
+	}
+	#map iframe{
+		width:100%;
+		height:280px;
+	}
+	#tele {
+		height: 150px;
+		padding-top:10px;
+	}
+	#tele .content h3 {
+		font-size: 20px;			
+	}
+	#tele .content p {
+		font-size: 14px;		
+		line-height: 14px;
+	}
+	#tele .media{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#tele .content{
+		text-align:center;
+	}
+	#footer {		
+		height: 70px;		
+	}
+	
+	#footer .content {
+		padding-top: 20px;
+	}
+	
+	#footer p {
+		color: #fff;
+		line-height: 10px;
+	}
+}

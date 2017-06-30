@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+		<title>吉客优鲜</title>
+		<link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/contect.css" rel="stylesheet">
+		<script src="jquery/jquery.min.js"></script>
+        <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- 导航区域 -->
+		<nav class="navbar navbar-itcast" data-spy="affix" data-offset-top="1" >
+            <div class="container">
+            	<div class="navbar-header">
+            		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
+                        <!--sr-only  screen read 屏幕阅读器使用的和效果没关 -->
+                        <!-- icon-bar 指按钮上的3个横杠 -->
+                        <span class="sr-only">切换菜单</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+	                <a class="navbar-brand" href="#">
+		                <img src="images/logo_1.png" alt="" class="img-responsive"/>
+		            </a>
+            	</div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                	<ol class="breadcrumb pull-right hidden-xs" >
+					    <li><a href="jackfresh.html" >首页</a></li>
+					    <li><a href="about_us.html">关于我们</a></li>
+					    <li><a href="quality.html">优质品质</a></li>
+					    <li><a href="intelligent.html">智能生活</a></li>					    
+					    <li class="spe"><a href="contect.html" class="active">联系我们</a></li>
+					</ol>
+					<ul class="nav navbar-nav hidden-lg hidden-md hidden-sm visible-xs">
+                        <li><a href="jackfresh.html">首页</a></li>
+					    <li><a href="about_us.html">关于我们</a></li>
+					    <li><a href="quality.html">优质品质</a></li>
+					    <li><a href="intelligent.html">智能生活</a></li>					    
+					    <li class="spe"><a href="contect.html" class="active">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="together">
+		        	<!--banner区域 -->
+		        <div class="banner">
+		        	<img src="images/contect_0.png" alt="联系我们" class="img-responsive center-block"/>
+		        </div>
+		        <!-- 联系我们 -->
+		        <div class="contect" id="contect">
+		        	<div class="container">        		
+		        		<div class="bottom row">
+		        			<div class="col-md-5 col-sm-5 col-xs-12 one">
+		        				<h3>联系我们</h3>
+		        				<p><strong>地址</strong>：武汉市洪山区关山大道保利国际中心28楼</p>
+								<p><strong>邮编</strong>：430000</p>
+								<p><strong>电话</strong>：400-027-2766</p>
+								<p class="spe"><strong>邮箱</strong>：jackfresh@163.com</p>
+		        			</div>
+		        			<div class="col-md-7 col-sm-7 col-xs-12">
+		        				<img src="images/contect_1.png" alt="联系我们" class="img-responsive pull-right"/>
+		        			</div>
+		        		</div>
+		        	</div>
+		        </div>
+		        <!-- 地理位置-->
+		        <div class="map" id="map">
+		        	<div class="container">
+		        		<iframe src="map.html"  frameborder="0" scrolling="no"></iframe>
+		        	</div>
+		        </div>
+		    <!-- 热线区域 -->
+			<section id="tele-box">
+				<div id="tele">
+					<div class="container">
+						<div class="media row">
+							<div class="col-md-8 content text-left">
+								<h3>客服热线：<span>400-027-2766</span></h3>
+								<p>企业邮箱：jackfresh@163.com</p>
+								<p>地址：武汉市洪山区关山大道保利国际中心28楼</p>
+								<p>邮编：430000</p>
+							</div>
+							<div class="line hidden-sm hidden-xs">
+								<img src="images/line.png"/>
+							</div>
+							<div class="col-md-4 hidden-sm hidden-xs ">
+								<div class="article media-body pull-right">
+									<img src="images/erweima_0.png" class="img-responsive center-block media-object"/>
+									<p>吉客优鲜公众号</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 尾部区域 -->
+			<footer id="footer">
+				<div class="container">
+					<div class="content text-center">
+						<p>Copyright 2016-2017 jikeyouxian.All Rights Reserved</p>
+						<p>武汉夏荷冬雪食品有限公司 鄂ICP 备 16003217号-1</p>
+					</div>
+				</div>
+			</footer>
+        </div>
+	</body>
+	<script>
+		$(document).ready(function(){
+			$(".breadcrumb li a").mouseover(function(){
+				$(this).addClass("active").parent().siblings().find("a").removeClass("active");
+			})
+		});
+		$(document).ready(function(){
+			$(".webpage a i").mouseover(function(){
+				$(this).addClass("active").parent().siblings() .find("i").removeClass("active");
+			})
+		});
+		$(function () {    
+            $(window).scroll(function () {    
+                if ($(window).scrollTop() > 60) {     
+                    $('.navbar-itcast').css('border-bottom','1px solid #ccc');    
+                    }    
+	            else {     
+	                $('#top img').css('display','none');    
+	            }    
+	        });    
+	    }); 
+	</script>
+</html>
